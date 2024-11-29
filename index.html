@@ -8,7 +8,9 @@
  
 
   <body style="margin : 0px; overflow: hidden;">
-
+   <a-assets>
+     <img id="im1" src="Kuromi.png">
+   </a-assets>
     <a-scene embedded arjs="sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
 
      
@@ -43,7 +45,7 @@
 
             <a-entity>  
 
-                <a-box position="0 0.1 0" scale="1.5 1.5 1.5" color="blue" ></a-box>
+                <a-box position="0 0.1 0" scale="1.5 1.5 1.5" src="#im1" ></a-box>
 
             </a-entity>
 
